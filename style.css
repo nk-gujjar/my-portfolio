@@ -36,6 +36,8 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
+  justify-content: center;
+  margin-right: 4rem;
   height: 17vh;
 }
 
@@ -58,13 +60,7 @@ a:hover {
   text-decoration-color: rgb(181, 181, 181);
 }
 
-.logo {
-  font-size: 2rem;
-}
 
-.logo:hover {
-  cursor: default;
-}
 
 /* HAMBURGER MENU */
 
@@ -170,14 +166,21 @@ section {
 }
 
 .section__pic-container {
+  /* border-radius: 50%; */
+  height: 400px;
+  width: 400px;
   display: flex;
-  border-radius: 50%;
-  height: 300px;
-  width: 300px;
   margin: auto 0;
+}
+.section__pic-container img
+{
+
+ border: 8px solid rgb(44, 58, 61);
+  border-radius: 50%;
 }
 
 .section__text {
+  display: flexbox;
   align-self: center;
   text-align: center;
 }
@@ -189,6 +192,8 @@ section {
 .section__text__p1 {
   text-align: center;
 }
+
+
 
 .section__text__p2 {
   font-size: 1.75rem;
@@ -301,7 +306,7 @@ section {
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
-  text-align: center;
+  /* text-align: ; */
 }
 
 .section-container {
@@ -323,6 +328,8 @@ section {
 
 .skills-sub-title {
   color: rgb(85, 85, 85);
+  display: flex;
+  justify-content: center;
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
