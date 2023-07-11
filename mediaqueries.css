@@ -22,7 +22,8 @@
  }
  #profile,
  .section-container {
-   display: block;
+   display: flex;
+   flex-direction: column;
  }
  .arrow {
    display: none;
