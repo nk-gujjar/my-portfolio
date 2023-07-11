@@ -168,8 +168,7 @@ section {
 
 .section__pic-container {
   /* border-radius: 50%; */
-  height: 400px;
-  width: 400px;
+  
   display: flex;
   margin: auto 0;
 }
